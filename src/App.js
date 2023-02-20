@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import './categories.styles.scss';
+
 function App() {
   console.log ("App")
   const categories = [
@@ -28,8 +30,8 @@ function App() {
 
   return (
     <div className="categories-container">
-      {categories.map(({title}) => (
-        <div className="category-container">
+      {categories.map(({title, id}) => (
+        <div className="category-container" id={id}>
           <div className="background-image" /> 
           <div className="category-body-container">
             <h2>{title}</h2>
