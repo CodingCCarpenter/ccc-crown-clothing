@@ -1,4 +1,3 @@
-import './App.css';
 import Directory from './components/directory/directory.component';
 import './categories.styles.scss';
 
