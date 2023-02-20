@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import './categories.styles.scss';
+
 function App() {
   console.log ("App")
   const categories = [
