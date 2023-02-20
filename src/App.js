@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="categories-container">
-      {categories.map(({title, id}) => (
+      {categories.map(({title, id, imageUrl}) => (
         <div className="category-container" id={id}>
           <div className="background-image" /> 
           <div className="category-body-container">
