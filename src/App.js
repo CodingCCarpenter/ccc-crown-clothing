@@ -3,7 +3,6 @@ import { Routes, Route, Outlet } from 'react-router-dom';
 import './App.css';
 import Home from './routes/home/home.component';
 
-
 const Navigation = () => {
   return(
     <div>
@@ -14,6 +13,8 @@ const Navigation = () => {
     </div>
   )
 }
+
+
 const App = () => {
   console.log ("App")
 
