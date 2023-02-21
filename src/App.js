@@ -1,12 +1,11 @@
 import './App.css';
-import Directory from './components/directory/directory.component';
-import './categories.styles.scss';
+import Home from './routes/home/home.component';
 
 function App() {
   console.log ("App")
 
   return (
-    <Directory />
+    <Home />
   );
 }
 
